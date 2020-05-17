@@ -1,4 +1,5 @@
 # dezzi pwa (reactjs)
+[Heroku Demo](https://dezzi-app.herokuapp.com/)
 
 ## npm scripts
 
