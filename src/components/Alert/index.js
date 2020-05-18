@@ -5,7 +5,7 @@ import AlertContainer from 'components/Alert/styles';
 
 const Alert = ({ color, text }) => (
   <AlertContainer color={color}>
-    {text}
+    <span data-testid="text">{text}</span>
   </AlertContainer>
 );
 

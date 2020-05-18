@@ -10,9 +10,9 @@ import PropTypes from 'prop-types';
 import { getStorage } from 'helpers/session/storage';
 
 
-import auth from 'store/modules/auth';
-import contacts from 'store/modules/contacts';
-import billings from 'store/modules/billings';
+import auth from './modules/auth';
+import contacts from './modules/contacts';
+import billings from './modules/billings';
 
 const states = {
   auth,
