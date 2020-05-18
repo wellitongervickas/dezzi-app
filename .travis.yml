@@ -11,8 +11,6 @@ before_script:
 
 deploy:
   provider: heroku
-  api_key:
-    secure: "secure-key"
   app: dezzi-app
   on:
     repo: wellitongervickas/dezzi-app
