@@ -1,6 +1,12 @@
 # dezzi pwa (reactjs)
 [Heroku Demo](https://dezzi-app.herokuapp.com/)
 
+## Environment Variables
+
+| Variable | Description | Default Value |
+|--|--|--|
+| REACT_APP_API_URL | | `http://localhost:8080` |
+
 ## npm scripts
 
 * npm install
