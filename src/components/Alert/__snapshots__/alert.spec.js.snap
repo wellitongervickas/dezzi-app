@@ -42,7 +42,7 @@ exports[`Components Alert should have a snapshot with a default Alert component 
 </DocumentFragment>
 `;
 
-exports[`Components Alert should have a snapshot with a default Alert component stykes 1`] = `
+exports[`Components Alert should have a snapshot with a default Alert component styles 1`] = `
 <DocumentFragment>
   .c0 {
   padding: 8px 16px;

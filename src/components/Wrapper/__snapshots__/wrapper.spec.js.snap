@@ -1,9 +1,43 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Components Wrapper should have a snapshot with a default wrapper component 1`] = `
+exports[`Components Wrapper should have a snapshot with a custom Wrapper component styles 1`] = `
 <DocumentFragment>
-  <div
-    class="sc-AxjAm gpZwYE"
+  .c0 {
+  background-color: #333333;
+  padding: 16px;
+  border-radius: 16px;
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Components Wrapper should have a snapshot with a default Wrapper component 1`] = `
+<DocumentFragment>
+  .c0 {
+  background-color: #FAFAFD;
+  padding: 16px;
+  border-radius: 16px;
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Components Wrapper should have a snapshot with a default Wrapper component styles 1`] = `
+<DocumentFragment>
+  .c0 {
+  background-color: #FAFAFD;
+  padding: 16px;
+  border-radius: 16px;
+}
+
+<div
+    class="c0"
   />
 </DocumentFragment>
 `;

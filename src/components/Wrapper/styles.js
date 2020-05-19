@@ -4,7 +4,7 @@ import { sm } from 'assets/stylesheets/js/sizes';
 import { white } from 'assets/stylesheets/js/colors';
 
 export const WrapperContainer = styled.div`
-  background-color: ${white};
+  background-color: ${(props) => props.backgroundColor || white};
   padding: ${sm()};
   border-radius: ${sm()};
 `;

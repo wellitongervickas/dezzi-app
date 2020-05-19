@@ -14,7 +14,7 @@ describe('Components Alert', () => {
     expect(asFragment(<Alert text={text} />)).toMatchSnapshot();
   });
 
-  it('should have a snapshot with a default Alert component stykes', async () => {
+  it('should have a snapshot with a default Alert component styles', async () => {
     const { asFragment, container } = render(<Alert text={text} />);
     expect(asFragment(<Alert text={text} />)).toMatchSnapshot();
 
