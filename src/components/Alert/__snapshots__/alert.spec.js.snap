@@ -41,3 +41,24 @@ exports[`Components Alert should have a snapshot with a default Alert component 
   </div>
 </DocumentFragment>
 `;
+
+exports[`Components Alert should have a snapshot with a default Alert component stykes 1`] = `
+<DocumentFragment>
+  .c0 {
+  padding: 8px 16px;
+  color: #FAFAFD;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  background-color: #73C6B6;
+}
+
+<div
+    class="c0"
+    color="green"
+  >
+    <span>
+      Warning is a warning
+    </span>
+  </div>
+</DocumentFragment>
+`;

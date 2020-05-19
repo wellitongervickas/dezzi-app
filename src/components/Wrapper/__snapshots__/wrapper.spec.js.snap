@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components Wrapper should have a snapshot with a default wrapper component 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm gpZwYE"
+  />
+</DocumentFragment>
+`;

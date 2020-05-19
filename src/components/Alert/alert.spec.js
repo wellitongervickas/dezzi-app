@@ -1,5 +1,7 @@
 import React from 'react'
 import { render, cleanup } from '@testing-library/react';
+import 'jest-styled-components';
+
 import Alert from '.';
 
 describe('Components Alert', () => {
@@ -8,11 +10,16 @@ describe('Components Alert', () => {
   afterEach(cleanup);
 
   it('should have a snapshot with a default Alert component', async () => {
+    const { asFragment } = render(<Alert text={text} />);
+    expect(asFragment(<Alert text={text} />)).toMatchSnapshot();
+  });
+
+  it('should have a snapshot with a default Alert component stykes', async () => {
     const { asFragment, container } = render(<Alert text={text} />);
     expect(asFragment(<Alert text={text} />)).toMatchSnapshot();
 
-    expect(container.firstChild).toHaveStyleRule('background-color', '#73C6B6')
-    expect(container.firstChild).toHaveStyleRule('color', '#FAFAFD')
+    expect(container.firstChild).toHaveStyleRule('background-color', '#73C6B6');
+    expect(container.firstChild).toHaveStyleRule('color', '#FAFAFD');
   });
 
   it('should have a snapshot Alert component with props', async () => {
@@ -26,6 +33,7 @@ describe('Components Alert', () => {
 
   it('should have a inline snapshot with alert text', () => {
     const { container } = render(<Alert text={text} />);
+
     expect(container.childNodes[0].childNodes[0]).toMatchInlineSnapshot(`
       <span>
         ${text}
