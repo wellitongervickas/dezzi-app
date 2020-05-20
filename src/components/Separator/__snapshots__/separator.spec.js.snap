@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components Separator should have a snapshot with a default Separator component 1`] = `
+<DocumentFragment>
+  .c0 {
+  height: 2px;
+  background-color: #ccc;
+  margin: 32px 0;
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;

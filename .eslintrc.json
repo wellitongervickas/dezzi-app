@@ -1,0 +1,57 @@
+{
+    "env": {
+      "browser": true,
+      "node": true,
+      "es6": true
+    },
+    "settings": {
+      "import/resolver": {
+        "node": {
+          "paths": ["src"]
+        }
+      }
+    },
+    "extends": [
+      "airbnb",
+      "plugin:react/recommended"
+    ],
+    "plugins": [
+      "react-hooks"
+    ],
+    "rules": {
+      "import/prefer-default-export": "off",
+      "react/prefer-stateless-function": 0,
+      "import/no-named-as-default": 0,
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn",
+      "react/jsx-props-no-spreading": 0,
+      "jsx-a11y/label-has-for": [
+        2,
+        {
+          "components": [
+            "Label"
+          ],
+          "required": {
+            "every": [
+              "nesting",
+              "id"
+            ]
+          },
+          "allowChildren": false
+        }
+      ],
+      "react/jsx-filename-extension": [
+        1,
+        {
+          "extensions": [
+            ".js",
+            ".jsx"
+          ]
+        }
+      ],
+      "quotes": [
+        2,
+        "single"
+      ]
+    }
+  }
